@@ -16,16 +16,16 @@ Clean Formatting: Provides a built-in __str__ method for easy status reporting.
 
 Usage Example:
 
-# Initialize a new character
+ Initialize a new character
 hero = GameCharacter("Adventurer")
 
-# Stats are automatically managed
+ Stats are automatically managed
 hero.health = -20  # Automatically sets health to 0
 hero.mana = 60     # Automatically sets mana to 50
 
-# Leveling up
+ Leveling up
 hero.level_up()
-# Output: "Adventurer leveled up to 2!"
+ Output: #"Adventurer leveled up to 2!"
 
 
 The GameCharacter class acts as an observer and manager of character data. By utilizing setter methods, the class ensures that any attempt to set health or mana outside of allowed parameters is corrected before the value is stored
