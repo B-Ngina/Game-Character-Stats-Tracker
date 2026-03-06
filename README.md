@@ -17,14 +17,19 @@ Clean Formatting: Provides a built-in __str__ method for easy status reporting.
 Usage Example:
 
  Initialize a new character
+
 hero = GameCharacter("Adventurer")
 
  Stats are automatically managed
+
 hero.health = -20  # Automatically sets health to 0
+
 hero.mana = 60     # Automatically sets mana to 50
 
  Leveling up
+
 hero.level_up()
+ 
  Output: #"Adventurer leveled up to 2!"
 
 
